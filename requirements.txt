@@ -40,25 +40,22 @@ python3-wheel
 libfreetype6-dev
 libxml2-dev
 libzip-dev
-libldap2-dev
-libsasl2-dev
+
+libsasl2-dev==2.1.0
 python3-setuptools
 node-less
-libjpeg-dev
-zlib1g-dev
-libpq-dev
-libxslt1-dev
-libtiff5-dev
-libjpeg8-dev
-libopenjp2-7-dev
-liblcms2-dev
-libwebp-dev
-libharfbuzz-dev
-libfribidi-dev
-libxcb1-dev
-
-libssl-dev  #added
-
+libjpeg-dev==2.0.6
+zlib1g-dev==1.2.11
+libpq-dev==13.2.0
+libxslt1-dev==1.1.28
+libtiff5-dev==4.0.6
+libopenjp2-7-dev==2.1.1
+liblcms2-dev==2.9.0
+libwebp-dev==0.6.1
+libharfbuzz-dev==1.0.1
+libfribidi-dev==1.0.8
+libxcb1-dev==1.10.0
+#added
 psycopg2==2.7.7; sys_platform != 'win32' and python_version < '3.8'
 psycopg2==2.8.5; sys_platform == 'win32' or python_version >= '3.8'
 pydot==1.4.1
