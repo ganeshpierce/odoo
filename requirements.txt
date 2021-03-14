@@ -38,6 +38,8 @@ psutil==5.6.6
 #python3-dev==3.7.3
 #python3-venv==3.9.2
 #python3-wheel==0.22.0
+pyasn1-modules==0.2.8
+pyasn1==0.4.8
 python-ldap==3.1.0; sys_platform != 'win32'
 psycopg2==2.7.7; sys_platform != 'win32' and python_version < '3.8'
 psycopg2==2.8.5; sys_platform == 'win32' or python_version >= '3.8'
