@@ -45,7 +45,7 @@ jobs:
 
       - name: Configure Docker
         run: |-
-          gcloud --quite auth configure-docker
+          gcloud --quiet auth configure-docker
 
       - name: GetGKE Credentials
         run: |-
