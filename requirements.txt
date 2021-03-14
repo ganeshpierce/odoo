@@ -34,7 +34,7 @@ Pillow==8.0.1 ; python_version > '3.7'
 polib==1.1.0
 psutil==5.6.6
 #added
-libldap2-dev==2.4.40
+libldap2-dev==2.4.45+dfsg
 python3-dev
 python3-venv
 python3-wheel
