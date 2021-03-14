@@ -1,4 +1,4 @@
-FROM python:3.9-onbuild
+FROM python:3.8-onbuild
 RUN apt-get update
 RUN pip install -r ./requirements.txt
 
