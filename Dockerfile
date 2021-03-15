@@ -1,4 +1,4 @@
-FROM python:3.8-onbuild
+FROM python:3.6-onbuild
 RUN apt-get update
 RUN apt-get upgrade
 RUN adduser -system -home=/opt/odoo -group odoo
