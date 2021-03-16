@@ -1,6 +1,6 @@
 FROM python:3.6-onbuild
 RUN apt-get update
-RUN apt-get upgrade
+#RUN apt-get upgrade
 RUN adduser -system -home=/opt/odoo -group odoo
 RUN apt-get install postgresql -y
 RUN apt-get install libsasl2-dev python-dev libldap2-dev libssl-dev
